@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ################################################################################
-# For this script to work properly it is required to define some environment variables
+#  this script to work properly it is required to define some environment variables
 # in the CI/CD Env variable declaration, while others should be passed as parameters.
 #
 #------------------------------------------------------------------------------
