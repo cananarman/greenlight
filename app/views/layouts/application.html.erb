@@ -28,10 +28,10 @@
       </script>
     <% end %>
 
-    <title><%= yield(:page_title).present? ? yield(:page_title) : t("bigbluebutton") %></title>
+    <title><%= yield(:page_title).present? ? yield(:page_title) : t("Meltem Reyhan") %></title>
     <meta property="og:title" content="<%= yield(:page_title).present? ? yield(:page_title) : t("bigbluebutton") %>" />
-    <meta property="og:type" content="website" />
-    <meta property="og:description" content="<%= yield(:page_desc).present? ? yield(:page_desc) : t("landing.about", href: "Greenlight", locale: :en) %>" />
+    <meta property="og:type" content="Meltem Reyhan" />
+    <meta property="og:description" content="<%= yield(:page_desc).present? ? yield(:page_desc) : t("landing.about", href: "Cananarman", locale: :en) %>" />
     <meta property="og:url" content="<%= request.base_url %>" />
     <meta property="og:image" content="<%= logo_image %>" />
     <meta name="viewport" content= "width=device-width, user-scalable=no">
